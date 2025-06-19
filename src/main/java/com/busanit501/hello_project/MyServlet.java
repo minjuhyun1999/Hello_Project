@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 
 @WebServlet(name = "myServelet", urlPatterns = "/my")
 
-public class MyServelet extends HttpServlet{
+public class MyServlet extends HttpServlet{
 
     @Override
     //트라이 캐치처럼 실험을 하다가 캐치블럭에 던지고 예외처리 했던 것처럼 처리해도 되지만, 쓰로우로 던져서 서블릿 익셉션에 두고, 인풋 아웃풋 익셉션으로 던져주기.
